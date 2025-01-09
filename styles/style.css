@@ -158,6 +158,14 @@ header {
   padding: 16px 32px;
   border: none;
   border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.address .addr-content .btn > button:hover {
+  scale: 0.9;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.735);
 }
 .comming-soon {
   width: 1320px;
